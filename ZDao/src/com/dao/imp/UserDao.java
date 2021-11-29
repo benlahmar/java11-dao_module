@@ -2,13 +2,11 @@ package com.dao.imp;
 
 import java.util.List;
 
-import com.dao.IDao;
-import com.dao.IDaog;
 import com.dao.IUser;
 
 import co.entity.User;
 
-public class DaoImplXml implements IDaog<User, Long>{
+public class UserDao implements IUser {
 
 	@Override
 	public void add(User t) {
@@ -27,8 +25,5 @@ public class DaoImplXml implements IDaog<User, Long>{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	
-
 
 }

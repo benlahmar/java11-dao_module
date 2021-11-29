@@ -2,33 +2,27 @@ package com.dao.imp;
 
 import java.util.List;
 
-import com.dao.IDao;
-import com.dao.IDaog;
-import com.dao.IUser;
+import com.dao.IQuizDao;
+import com.entities.Quiz;
 
-import co.entity.User;
-
-public class DaoImplXml implements IDaog<User, Long>{
+public class QuizDao implements IQuizDao {
 
 	@Override
-	public void add(User t) {
+	public void add(Quiz t) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public User findById(Long k) {
+	public Quiz findById(Long k) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public List<User> all() {
+	public List<Quiz> all() {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	
-
 
 }
